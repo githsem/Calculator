@@ -5,8 +5,8 @@ from bolme import bol_f
 from modul import mod_f
 
 
-num1 = int(input(1. Nummer : ))
-num2 = int(input(2. Nummer : ))
+num1 = int(input("1. Nummer : "))
+num2 = int(input("2. Nummer : "))
 
 print(top_f(num1, num2))
 print(cik_f(num1, num2))
