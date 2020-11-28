@@ -1,0 +1,33 @@
+📋 AUFGABEN 
+
+✒️Visual Studio Code a linkini gonderecegim Githup Repo sunu klonlamaliyiz
+✒️Her birimiz bu olusan Branchlardan birini secmeliyiz( Ben Modul kismini sectim. Kim hangi branch i almak istiyorsa buraya yazabilir)
+✒️Sectigimiz Branch a devolop branchini merge etmeliyiz
+✒️Klonladigimiz klasorun icine, maindeki koddaki isimlere uygun sekilde, yapacagimiz isleme gore bir python file olusturmaliyiz.
+Ornegin toplama.py isimli bir dosya olusturup bu dosyanin icine de top_f isimli bir fonksiyon olusturmaliyiz.
+✒️Herkes kendi dosyasini yazdiktan sonra bu degisiklikleri sadece kendi Branchina Push etmeli
+✒️Okulda bulustugumuzda hep beraber bu branchlari once develop branchina son olarak da main brancha merge ederiz.
+(Iki ana branch olmasinin sebebi main(master olarak da gecer) urunun oldugu branchtir.
+Bundan bir tane develop gibi bir branch uretip bi ön adim gibi birsey olusturmus oluyoruz)
+
+
+ℹ️Anlayabildigim kadariyla birseyler olusturmaya calistim.
+Cok anladigim, tecrubem olan bir mevzuu degil. Dogru olusturabildim mi bilmiyorum, eksik ve yanlis yerler vardir, kusura bakmayin artik hep beraber degerlendiririz😅
+Faydali olmasi dilegiyle...😊
+
+
+from toplama import top_f
+from cikarma import cik_f
+from carpma import car_f
+from bolme import bol_f
+from modul import mod_f
+
+
+num1 = int(input())
+num2 = int(input())
+
+print(top_f(num1, num2))
+print(cik_f(num1, num2))
+print(car_f(num1, num2))
+print(bol_f(num1, num2))
+print(mod_f(num1, num2))
